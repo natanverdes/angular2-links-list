@@ -7,4 +7,9 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'app works!';
+
+  addArticle(): boolean {
+    console.log("Adding article");
+    return false;
+  }
 }
