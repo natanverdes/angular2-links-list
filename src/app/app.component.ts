@@ -26,4 +26,8 @@ export class AppComponent {
       new Article('Angular Homepage', 'http://angular.io', 1),
     ];
   }
+
+  sortedArticles(): Article[] {
+    return this.articles.sort((a: Article, b: Article) => b.votes - a.votes);
+  }
 }

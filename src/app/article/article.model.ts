@@ -1,7 +1,7 @@
 export class Article {
   title: string;
   link: string;
-  private votes: number;
+  votes: number;
 
   constructor(title: string, link: string, votes?: number) {
     this.title = title;
